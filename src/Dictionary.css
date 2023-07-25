@@ -6,12 +6,24 @@
   margin: 20px 0;
 }
 
+.Dictionary h1{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
 .Dictionary input {
   width: 100%;
   padding: 6px 10px;
   border: 1px solid #ddd;
   border-radius: 6px;
   color: #333;
+  transition: all 100ms ease-in-out;
+}
+
+.Dictionary input:focus {
+  border: 1px solid #F58B2B;
+  outline: 1px solid #F58B2B;
 }
 
 .Dictionary .hint {
