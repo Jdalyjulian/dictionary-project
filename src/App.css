@@ -1,5 +1,20 @@
+body {
+  background: #FEF6BB;
+}
+
+a {
+  color: #F58B2B;
+}
+
 .App-header {
   margin: 30px 0;
+}
+
+.App-logo {
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
 }
 
 .App-footer {
