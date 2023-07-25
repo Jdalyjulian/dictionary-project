@@ -31,3 +31,20 @@
   font-size: 11px;
   margin-left: 5px;
 }
+
+@media (max-width: 500px) {
+  .Dictionary section {
+    padding: 10px 20px;
+  }
+  .Dictionary h1 {
+    font-size: 14px;
+  }
+
+  .Dictionary input {
+    font-size: 14px;
+  }
+
+  .Dictionary .hint{
+    display: none;
+  }
+}

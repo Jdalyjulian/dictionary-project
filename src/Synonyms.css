@@ -14,3 +14,9 @@
   font-size: 13px;
   line-height: 1;
 }
+
+@media (max-width: 500px) {
+  .Synonyms li{
+    font-size: 11px;
+  }
+}
