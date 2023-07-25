@@ -9,7 +9,6 @@ export default function Dictionary(props) {
   let [loaded, setLoaded] = useState(false);
 
   function handleResponse(response) {
-    console.log(response.data);
     setResults(response.data);
   }
 
