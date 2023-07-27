@@ -12,7 +12,7 @@ export default function App() {
         <main>
           <Dictionary defaultKeyword="hello"/>
         </main>
-        <footer className="App-footer"><small>Coded by Julia Julian</small></footer>
+        <footer className="App-footer"><small>Coded by Julia Julian and <a href="https://github.com/Jdalyjulian/dictionary-project" target="_blank" rel="noreferrer" >open-sourced</a></small></footer>
       </div>
     </div>
   );
